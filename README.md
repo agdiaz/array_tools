@@ -1,4 +1,5 @@
 # ArrayTools
+![travis](https://travis-ci.org/agdiaz/array_tools.svg?branch=master)
 
 Welcome to ArrayTools gem!
 To experiment with that code, run `bin/console` for an interactive prompt.

@@ -1,5 +1,14 @@
-sudo: false
 language: ruby
+cache: bundler
+
 rvm:
-  - 2.1.2
-before_install: gem install bundler -v 1.12.3
+  - 2.0.0
+
+script: 'bundle exec rake'
+
+notifications:
+  email:
+    recipients:
+      - diaz.adrian.g@gmail.com
+    on_failure: change
+    on_success: never
